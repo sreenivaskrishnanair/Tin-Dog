@@ -1,0 +1,158 @@
+body {
+    font-family: Montserrat;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-family: Arial-Black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 70%;
+    transform: rotate(25deg);
+    /* position: absolute; */
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    /* z-index: 1;
+    position: absolute; */
+}
+/* .press-section{
+    .b
+} */
+
+.col-lg-4 {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: Arial-Black;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ef8172;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    /* position: absolute; */
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: Arial-Black;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.testimage {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.imgLogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.container-pricing {
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.card-deck {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+.cta-heading{
+    font-family: Arial-Black;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+#cta{
+    font-family: Arial-Black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+footer{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.bottom-icon{
+    padding-left: 0.56%;
+    padding-right: 0.56%;
+}
